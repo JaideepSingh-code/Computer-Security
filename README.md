@@ -37,6 +37,39 @@ This repository documents hands-on work across offensive and defensive security 
 - **IDS rule development** — deployed Snort 3 with custom detection rules, including analysis of HTTPS limitations on signature-based detection
 - **Web attack vectors** — demonstrated 4 distinct attack types (File Upload XSS, Reflected XSS, Stored XSS, CSRF) with root cause analysis and countermeasures
 
+## Project Structure
+
+```
+Computer-Security/
+├── encryption-and-cryptography/
+│   ├── files/
+│   │   ├── encrypt.py                  # Custom AES-256-CBC encryption client
+│   │   ├── plaintext.txt               # Sample plaintext input
+│   │   ├── encrypted_file.enc          # AES-encrypted output
+│   │   ├── decrypted_file.txt          # Decrypted verification
+│   │   ├── symmetric_key.key           # AES symmetric key
+│   │   ├── public_key.pem              # RSA public key
+│   │   ├── private_key.pem             # RSA private key
+│   │   ├── rsa_encrypted.enc           # RSA-encrypted data
+│   │   ├── rsa_decrypted.txt           # RSA-decrypted output
+│   │   ├── signature.bin               # Digital signature
+│   │   └── output.txt                  # Execution output
+│   ├── README.md
+│   ├── Solutions.pdf
+│   └── Task.pdf
+├── linux-security-and-social-engineering/
+│   ├── README.md, Solutions.pdf, Task.pdf
+├── password-security-analysis/
+│   ├── README.md, Solutions.pdf, Task.pdf
+├── penetration-testing/
+│   ├── README.md, Solutions.pdf, Task.pdf
+├── malware-analysis-and-ids/
+│   ├── README.md, Solutions.pdf, Task.pdf
+├── web-application-security/
+│   ├── README.md, Solutions.pdf, Task.pdf
+└── README.md
+```
+
 ## Disclaimer
 
 All security testing was performed in controlled, authorized environments (local VMs, intentionally vulnerable applications). This repository is for educational and portfolio purposes only.
